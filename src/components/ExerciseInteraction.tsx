@@ -6,7 +6,7 @@ const pictureLabels: Record<string, string> = {
   apple: "Mollë",
   book: "Libër",
   house: "Shtëpi",
-  cat: "Katë",
+  cat: "Mace",
   dog: "Këlysh",
   bread: "Buke",
   coffee: "Kafe",

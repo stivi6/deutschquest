@@ -35,9 +35,6 @@ export function SiteLayout({ children, home = false }: { children: ReactNode; ho
               <Link to="/" hash="how-it-works" className="nav-link" onClick={() => setMenu(false)}>
                 Si funksionon
               </Link>
-              <Link to="/" hash="about" className="nav-link" onClick={() => setMenu(false)}>
-                Rreth
-              </Link>
               <Button asChild variant="quest" size="quest">
                 <Link to="/play">
                   Fillo të mësohësh <ArrowRight />
@@ -76,7 +73,7 @@ export function SiteLayout({ children, home = false }: { children: ReactNode; ho
             <span className="footer-name">
               DeutschQuest <span className="brand-accent">·</span> Mëso gjermanisht. Luaj sipas mënyrës tënde.
             </span>
-            <span>Përparimi ruhet lokalisht në këtë browser.</span>
+            <span>Zhvilluar nga Stiven Arifaj</span>
           </div>
           <p className="credits">
             Të gjithë emoji-t janë dizenjuar nga{" "}

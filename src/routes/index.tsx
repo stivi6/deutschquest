@@ -52,8 +52,8 @@ function Home() {
           </div>
           <div className="hero-art">
             <img
-              src="/assets/illustrations/home-learning.svg"
-              alt="Një nxënës që eksploron libra dhe ide të reja"
+              src="/assets/illustrations/home-cat.svg"
+              alt="Një mace që lexon një libër gjermanisht"
               width="540"
               height="350"
             />
@@ -111,7 +111,7 @@ function Home() {
               </div>
               <div>
                 <span className="step-number">02</span>
-                <h3>Mëso pak, luaj pak</h3>
+                <h3>Mëso dhe Luaj</h3>
                 <p>
                   Përputh fjalët, ndërto fjali dhe provo biseda të përditshme. Çdo përgjigje është
                   një mundësi për të mësuar.
@@ -119,19 +119,11 @@ function Home() {
               </div>
               <div>
                 <span className="step-number">03</span>
-                <h3>Shiko se si ke shkuar</h3>
+                <h3>Shiko rezultatet</h3>
                 <p>Përfundo udhëtimin, shiko rezultatin e lojës dhe rishiko çdo pyetje të vështirë.</p>
               </div>
             </div>
           </div>
-        </section>
-        <section id="about" className="about-section container">
-          <h2>Krijuar për një aventurë të vogël gjuhësore.</h2>
-          <p className="about-copy">
-            DeutschQuest është një projekt shkollor që e bën praktikën e gjermanishtes fillestare
-            pak më të luajtur. Asnjë llogari, asnjë kohëmatës, asnjë presion — vetëm 45 pyetje dhe
-            udhëtimi yt i mësimit.
-          </p>
         </section>
       </main>
     </SiteLayout>
